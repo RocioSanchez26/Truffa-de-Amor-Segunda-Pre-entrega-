@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Farsan&family=Merienda:wght@300;400;500;600;700&family=Nunito:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap');
+
+/* font-family: 'Farsan', cursive;
+font-family: 'Merienda', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Centrar en la parte superior */
+
+}
+
+.centered-container .logo .logoxd{
+    max-width: 420px; /* Hace que la imagen sea responsiva */
+    height: auto; /* Permite que la imagen mantenga su relación de aspecto */
+    transition: transform 0.3s ease; /* Agrega una transición suave al cambiar el tamaño */
+  }
+
+/* Custom background color */      /* Adjust this color to match your navbar */
+/* .bg-custom {
+    background-color: #c10049;
+} */
+
+/* Color del texto y estilo de fuente para los enlaces de la barra de navegación */
+.navbar .nav-link {
+    color: #ffffff;
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Estilo para la barra de búsqueda */
+form input[type="search"] {
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+}
+
+/* Eliminar el contorno de enfoque de la barra de búsqueda */
+form input[type="search"]:focus {
+    outline: none;
+    box-shadow: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo de los botones */
+/* button .navbar-toggler{
+    background: none;
+    border: none;
+    color: #08a312;
+    font-size: 18px;
+    padding: 0 10px;
+} */
+
+/* Ajustar el relleno para los elementos de la barra de navegación */
+.navbar-nav .nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.d-flex{
+    height: 40px;
+    width: 400px;
+}
+
+.d-flex button{
+    width: 80px;
+    height: 40px;
+    font-size: 28px;
+    background-color: white;
+    color: #c10049;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    cursor: pointer;
+}
+
+/* form .d-flex input[type="search"] button{
+    margin: 0px;
+} */
