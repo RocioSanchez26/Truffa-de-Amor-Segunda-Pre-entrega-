@@ -91,3 +91,82 @@ form input[type="search"]:focus {
 #cocholate #cocholate1 #cocholatexd{
     margin-top: 20px;
 }
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.card{
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    width: 419px;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-content {
+    flex: 1;
+    /* padding-right: 60px; */ /* Espaciado entre el texto y la imagen */
+    color: white;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: 800;
+    font-family: 'Merienda', cursive;
+    text-align: left;
+    display: flex;
+    margin-top: 70px;
+    color: #593100;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+#tableta-cho{
+    width: 140px;
+    height: 120px;
+}
+
+#heladx{
+    width: 176px;
+    height: 126px;
+}
+
+#cupcake{
+    width: 85px;       /* el ancho */
+    height: 128px;  /* el altura */
+}
+
+#carta1{
+    background-color: #c10049;
+}
+
+#carta2{
+    background-color: #ff386d;
+}
+
+#carta3{
+    background-color: #7019fc;
+}
